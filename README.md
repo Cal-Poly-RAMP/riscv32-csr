@@ -46,3 +46,7 @@ The second program used for testing is matmul (matrix multiplication) modified w
 If the solution to matmul is invalid, a different LED patter appears featuring 0xFFFF. This was generated purposefully by changing a result in the sample solution.
 
 ![image](https://user-images.githubusercontent.com/74398368/206650595-9730f2c3-f617-4302-b018-d312b3fe4fba.png)
+
+## To Do
+
+Now that this CSR module has been tested, it is time to integrate it with FreeRTOS. It was designed with that application in mind, but problems with the FreeRTOS heap management have stood in the way of this testing. This project has focused on making sure the CSR works flawlessly before integrating it with still-WIP software.

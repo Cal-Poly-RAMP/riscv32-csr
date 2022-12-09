@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../CLK_DIV_FS.v" \
+"../../../../../spi_master_2.v" \
+
+sv xil_defaultlib  \
+"../../../../../ALU.sv" \
+"../../../../../BCD.sv" \
+"../../../../../BranchCondGen.sv" \
+"../../../../../CU_Decoder.sv" \
+"../../../../../CathodeDriver.sv" \
+"../../../../../FreqGen.sv" \
+"../../../../../HazardHandler.sv" \
+"../../../../../ImmedGen.sv" \
+"../../../../../Mux2_1.sv" \
+"../../../../../Mux4_1.sv" \
+"../../../../../OTTER_MCU.sv" \
+"../../../../../OTTER_Wrapper.sv" \
+"../../../../../PipelineReg.sv" \
+"../../../../../ProgramCounter.sv" \
+"../../../../../RegFile.sv" \
+"../../../../../SevSegDisp.sv" \
+"../../../../../TargetGen.sv" \
+"../../../../../bram_dualport_pipelined.sv" \
+"../../../../../debounce_one_shot.sv" \
+"../../../../../OTTER_SIM.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

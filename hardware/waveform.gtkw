@@ -1,0 +1,149 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Dec  9 06:52:55 2022
+[*]
+[dumpfile] "/home/justfran/PipelinedOtter/logs/vlt_dump.fst"
+[dumpfile_mtime] "Fri Dec  9 06:51:59 2022"
+[dumpfile_size] 13977658
+[savefile] "/home/justfran/PipelinedOtter/waveform.gtkw"
+[timestart] 1662740
+[size] 1393 985
+[pos] -1 -1
+*-11.000000 1667230 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.OTTER_SIM.
+[treeopen] TOP.OTTER_SIM.Otter.
+[treeopen] TOP.OTTER_SIM.Otter.MCU.
+[treeopen] TOP.OTTER_SIM.Otter.MCU.HzHr.
+[sst_width] 297
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 484
+@28
+TOP.OTTER_SIM.CLK
+@22
+TOP.OTTER_SIM.Otter.MCU.A_EX[31:0]
+TOP.OTTER_SIM.Otter.MCU.A_EX_fw[31:0]
+TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1_next[37:0]
+@c00022
+TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+@28
+(0)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(1)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(2)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(3)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(4)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(5)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(6)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(7)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(8)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(9)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(10)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(11)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(12)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(13)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(14)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(15)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(16)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(17)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(18)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(19)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(20)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(21)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(22)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(23)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(24)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(25)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(26)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(27)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(28)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(29)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(30)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(31)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(32)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(33)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(34)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(35)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(36)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+(37)TOP.OTTER_SIM.Otter.MCU.HzHr.fw_1[37:0]
+@1401200
+-group_end
+@22
+TOP.OTTER_SIM.Otter.MCU.HzHr.fw_2[37:0]
+TOP.OTTER_SIM.Otter.MCU.HzHr.wr_addr[4:0]
+TOP.OTTER_SIM.Otter.MCU.alu_out[31:0]
+@28
+TOP.OTTER_SIM.Otter.MCU.regWrite_EX
+@800022
+TOP.OTTER_SIM.Otter.MCU.HzHr.squash[3:0]
+@28
+(0)TOP.OTTER_SIM.Otter.MCU.HzHr.squash[3:0]
+(1)TOP.OTTER_SIM.Otter.MCU.HzHr.squash[3:0]
+(2)TOP.OTTER_SIM.Otter.MCU.HzHr.squash[3:0]
+(3)TOP.OTTER_SIM.Otter.MCU.HzHr.squash[3:0]
+TOP.OTTER_SIM.Otter.MCU.HzHr.stall
+TOP.OTTER_SIM.Otter.MCU.CSR.flush
+@22
+TOP.OTTER_SIM.LEDS[15:0]
+TOP.OTTER_SIM.Otter.r_SSEG[15:0]
+TOP.OTTER_SIM.Otter.MCU.CSR.next_pc[31:0]
+TOP.OTTER_SIM.Otter.MCU.CSR.next_pc_updated[31:0]
+@28
+TOP.OTTER_SIM.Otter.MCU.csr_en_EX
+@22
+TOP.OTTER_SIM.Otter.MCU.csr_out_EX[31:0]
+TOP.OTTER_SIM.Otter.MCU.Mem.MEM_ADDR2[31:0]
+@28
+TOP.OTTER_SIM.Otter.MCU.Mem.MEM_WRITE2
+@800022
+TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
+@28
+(0)TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
+(1)TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
+(2)TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
+(3)TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
+(4)TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
+@1001200
+-group_end
+@22
+TOP.OTTER_SIM.Otter.MCU.CSR.mstatus[31:0]
+TOP.OTTER_SIM.Otter.MCU.CSR.mie[31:0]
+TOP.OTTER_SIM.Otter.MCU.CSR.mepc[31:0]
+@28
+TOP.OTTER_SIM.Otter.MCU.HzHr.OPCODE[6:0]
+@29
+TOP.OTTER_SIM.Otter.MCU.pcSource[2:0]
+@22
+TOP.OTTER_SIM.Otter.r_SSEG[15:0]
+@28
+TOP.OTTER_SIM.Otter.MCU.CSR.timer_int
+@22
+TOP.OTTER_SIM.Otter.MCU.pc_EX[31:0]
+@28
+TOP.OTTER_SIM.Otter.MCU.EX_VALID
+TOP.OTTER_SIM.Otter.MCU.CSR.m_ext_int
+TOP.OTTER_SIM.Otter.MCU.CSR.mret
+@22
+TOP.OTTER_SIM.Otter.MCU.BCG.rs1[31:0]
+TOP.OTTER_SIM.Otter.MCU.BCG.rs2[31:0]
+TOP.OTTER_SIM.Otter.MTIMER.mtime[63:0]
+TOP.OTTER_SIM.Otter.MTIMER.mtimecmp[63:0]
+@28
+TOP.OTTER_SIM.Otter.MTIMER.mtimecmp_set[1:0]
+@22
+TOP.OTTER_SIM.Otter.IOBUS_out[31:0]
+@28
+TOP.OTTER_SIM.Otter.IOBUS_wr
+@22
+TOP.OTTER_SIM.Otter.IOBUS_addr[31:0]
+TOP.OTTER_SIM.Otter.MCU.RegF.ram[3][31:0]
+@28
+TOP.OTTER_SIM.Otter.MCU.FAIL
+TOP.OTTER_SIM.Otter.MCU.FINISH
+@22
+TOP.OTTER_SIM.Otter.MCU.RegF.ram[2][31:0]
+TOP.OTTER_SIM.Otter.MCU.RegF.ram[1][31:0]
+@1001200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

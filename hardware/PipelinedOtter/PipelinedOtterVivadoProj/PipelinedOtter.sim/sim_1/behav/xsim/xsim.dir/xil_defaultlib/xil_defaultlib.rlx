@@ -1,0 +1,27 @@
+0.7
+2020.2
+Oct 19 2021
+03:16:22
+C:/Users/justf/Documents/PipelinedOtter/ALU.sv,1642565399,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/BCD.sv,,ALU,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/BCD.sv,1644216896,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/BranchCondGen.sv,,BCD,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/BranchCondGen.sv,1666115182,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/CU_Decoder.sv,,BranchCondGen,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/CLK_DIV_FS.v,1644822437,verilog,,C:/Users/justf/Documents/PipelinedOtter/spi_master_2.v,,clk_div,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/CU_Decoder.sv,1666581143,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/CathodeDriver.sv,,CU_Decoder,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/CathodeDriver.sv,1644216896,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/FreqGen.sv,,CathodeDriver,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/FreqGen.sv,1646892448,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/HazardHandler.sv,,FreqGen,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/HazardHandler.sv,1666591299,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/ImmedGen.sv,,HazardHandler,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/ImmedGen.sv,1664903181,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/Mux2_1.sv,,ImmedGen,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/Mux2_1.sv,1638416229,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/Mux4_1.sv,,Mux2_1,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/Mux4_1.sv,1641872002,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/OTTER_MCU.sv,,Mux4_1,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/OTTER_MCU.sv,1666588507,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/OTTER_Wrapper.sv,,OTTER_MCU,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/OTTER_SIM.sv,1666115484,systemVerilog,,,,OTTER_SIM,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/OTTER_Wrapper.sv,1666592469,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/PipelineReg.sv,,OTTER_Wrapper,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/PipelineReg.sv,1666286238,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/ProgramCounter.sv,,PipelineReg,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/PipelinedOtter/PipelinedOtter.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/ProgramCounter.sv,1665074070,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/RegFile.sv,,ProgramCounter,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/RegFile.sv,1665073759,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/SevSegDisp.sv,,RegFile,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/SevSegDisp.sv,1644216896,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/TargetGen.sv,,SevSegDisp,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/TargetGen.sv,1665076214,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/bram_dualport_pipelined.sv,,TargetGen,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/bram_dualport_pipelined.sv,1666674260,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/debounce_one_shot.sv,,OTTER_mem_byte;OTTER_mem_dualport,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/debounce_one_shot.sv,1644216896,systemVerilog,,C:/Users/justf/Documents/PipelinedOtter/OTTER_SIM.sv,,debounce_one_shot,,uvm,,,,,,
+C:/Users/justf/Documents/PipelinedOtter/spi_master_2.v,1666592459,verilog,,,,spi_master_2,,uvm,,,,,,

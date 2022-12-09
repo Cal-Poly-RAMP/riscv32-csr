@@ -19,20 +19,20 @@
 
 module CSR_rv32 (
     input CLK,
-    input enable,           // Write       
+    input enable,           // Active High Write       
     input [11:0] addr,      // IR [31:]
     input [1:0] mode_sel,   // IR [13:12]
     input [4:0] immediate,  // IR [19:15]
     input immediate_sel,    // IR [14]
-    input [31:0] rs1,
-    input timer_int,
-    input m_ext_int,
+    input [31:0] rs1,       // Input data connected to rs1
+    input timer_int,        // Timer Interrupt
+    input m_ext_int,        // Machine External Interrupt
     input stall,            // See if pipeline is stalling
-    input mret,
-    input [2:0] pcSource,
-    input [31:0] next_pc,
+    input mret,             // Active high on mret instruction
+    input [2:0] pcSource,   // View when changes are made to pc
+    input [31:0] next_pc,   // Intercepts next_pc to jump to interrupts
     output logic flush,     // Tell Pipeline to Start Flushing
-    output logic [31:0] read_data,
+    output logic [31:0] read_data,  
     output logic [31:0] next_pc_updated
     );
 

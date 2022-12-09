@@ -1,5 +1,15 @@
 # RISCV32 Spec CSR
 ## Overview - Intterrupt Support for the Otter
+This repo contains a riscv-spec Control Status Register, used to add interrupts to an existing pipelined architecture. 
+
+![image](https://user-images.githubusercontent.com/74398368/206654536-cd597cc0-e28f-4ed3-b2b8-29a3f272f483.png)
+
+The general behavior is shown above: when an interrupt is triggered, the instruction in the fetch stage will complete all the way through execute. Any changes made to the pc at this time will be instead made to mepc. Meanwhile new instructions are blocked using flush. After this completes the ISR is entered. 
+
+## Repo Layout
+The hardware folder contains a 5-stage pipelined riscv32 cpu in the PipelinedOtter folder, used to verify the behavior of the CSR. All additional hardware files, specifically the CSR and Machine Timer modules, are kept in the base directory hardware for easy access. The CSR module is well documented as far as its inputs and outputs.
+
+The software folder contains 2 test programs used to verify correct performance.
 
 ## Makefile Usage
 
@@ -23,7 +33,7 @@ After compiling, copy the contents of ```mem.txt``` in ```build``` into ```otter
 
 ## Verification 
 
-To ensure that this CSR implementation was data safe and not losing instructions or data, two test programs were developped. The following waveforms are corrected after debugging and solving edge cases involving the CSR's interrupt handling.
+To ensure that this CSR implementation was data safe and not losing instructions or data, two test programs were developed. The following waveforms are corrected after debugging and solving edge cases involving the CSR's interrupt handling.
 
 The first of these programs is testAll modified with interrupts. The finish line denotes a run of every test, and the fail line denotes that the fail state was entered. As can be seen, the finish state is reached without ever hitting fail.
 

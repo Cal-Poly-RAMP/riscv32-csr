@@ -7,14 +7,14 @@ This repo contains a riscv-spec Control Status Register, used to add interrupts 
 The general behavior is shown above: when an interrupt is triggered, the instruction in the fetch stage will complete all the way through execute. Any changes made to the pc at this time will be instead made to mepc. Meanwhile new instructions are blocked using flush. After this completes the ISR is entered. 
 
 ## Repo Layout
-The hardware folder contains a 5-stage pipelined riscv32 cpu in the PipelinedOtter folder, used to verify the behavior of the CSR. All additional hardware files, specifically the CSR and Machine Timer modules, are kept in the base directory hardware for easy access. The CSR module is well documented as far as its inputs and outputs.
+The hardware folder contains a 5-stage pipelined riscv32 cpu in the PipelinedOtter folder, used to verify the behavior of the CSR. All additional hardware files, specifically the CSR and Machine Timer modules, are kept in the base directory hardware for easy access. The [CSR module](/hardware/CSR_rv32.sv) is well documented as far as its inputs and outputs. Timer inputs can be fed to the CSR using the mtimer module, with a memory-mapped 64 bit timer and comparator generating the interrupt. 
 
 The software folder contains 2 test programs used to verify correct performance.
 
 ## Makefile Usage
 
 ### Hardware Simulation
-Development is done in system verilog with linting and simulation done in verilator. When in the directory ```hardware```, the following make commands are useful:
+Development is done in system verilog with linting and simulation done in verilator. This relies on the [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-build) toolchain. When in the directory ```hardware```, the following make commands are useful:
 
 ```make``` to compile all system verilog files into verilator format and build a simulation executable
 

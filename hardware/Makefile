@@ -1,6 +1,9 @@
 
 all:
-	verilator -IPipelinedOtter -cc OTTER_SIM.sv bram_dualport_pipelined.sv CLK_DIV_FS.v PipelinedOtter/sim_main.cpp -build -timing --trace --exe --threads 4
+	verilator -IPipelinedOtter -cc OTTER_SIM.sv bram_dualport_pipelined.sv CLK_DIV_FS.v PipelinedOtter/sim_main.cpp -build -timing --trace --exe -threads 4
+
+mac:
+	verilator -IPipelinedOtter -cc OTTER_SIM.sv bram_dualport_pipelined.sv CLK_DIV_FS.v PipelinedOtter/sim_main.cpp -build -timing --trace --exe -threads 4 -CFLAGS -fcoroutines-ts
 
 run:
 	./obj_dir/VOTTER_SIM

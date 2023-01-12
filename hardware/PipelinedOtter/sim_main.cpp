@@ -1,5 +1,5 @@
 
-  #include "obj_dir/VOTTER_SIM.h"
+  #include "../obj_dir/VOTTER_SIM.h"
   #include "verilated.h"
   int main(int argc, char** argv, char** env) {
       VerilatedContext* contextp = new VerilatedContext;

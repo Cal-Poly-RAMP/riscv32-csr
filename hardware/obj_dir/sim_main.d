@@ -1,5 +1,5 @@
 sim_main.o: ../PipelinedOtter/sim_main.cpp \
- ../PipelinedOtter/obj_dir/VOTTER_SIM.h \
+ ../PipelinedOtter/../obj_dir/VOTTER_SIM.h \
  /home/justfran/oss-cad-suite/share/verilator/include/verilated.h \
  /home/justfran/oss-cad-suite/share/verilator/include/verilatedos.h \
  /home/justfran/oss-cad-suite/share/verilator/include/verilated_config.h \

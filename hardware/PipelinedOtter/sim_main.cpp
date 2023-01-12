@@ -1,6 +1,9 @@
 
   #include "../obj_dir/VOTTER_SIM.h"
   #include "verilated.h"
+
+  double sc_time_stamp(){return 0;}
+
   int main(int argc, char** argv, char** env) {
       VerilatedContext* contextp = new VerilatedContext;
       contextp->commandArgs(argc, argv);

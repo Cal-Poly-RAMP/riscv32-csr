@@ -122,11 +122,13 @@ module HazardHandler(
         // Set data to 0 for no forward if op doesnt write
         else
             begin
+            fw_1_next.is_load = 0;
             fw_1_next.data = 0;
             fw_1_next.addr = 0;
             end
+        
+        
 
-            
         // Control Logic
         alu_A_fw = alu_A;
         alu_B_fw = alu_B;
@@ -203,6 +205,7 @@ module HazardHandler(
         end
 
         if (~stall) squash_next[1:0] = squash[1:0];
+        if (stall == 0 ) fw_1_next.is_load = 0;
         if (flush && stall) squash_next[0] = 1;
        
     end

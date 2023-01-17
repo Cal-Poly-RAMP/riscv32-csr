@@ -96,7 +96,7 @@ module OTTER_MCU(
     CU_Decoder CUD (.op(IR[6:0]), .funct7(IR[31:25]), .*); 
 
     //Register File Inputs
-    logic [31:0] CSR_REG;
+    // logic [31:0] CSR_REG;
     logic ERR;
     // Register file actually defined in writeback, signals needed earlier   
     
@@ -221,7 +221,7 @@ module OTTER_MCU(
     assign pcPlus4_WB = pc_WB + 32'd4;
     
     logic [31:0] wd;
-    Mux4_1 #(32) RegMux (.A(pcPlus4_WB), .B(CSR_REG), .C(MEM_DOUT2), .D(alu_out_WB),
+    Mux4_1 #(32) RegMux (.A(pcPlus4_WB), .B(csr_out_WB), .C(MEM_DOUT2), .D(alu_out_WB),
             .sel(rf_wr_sel_WB), .MUX_OUT(wd));
     RegFile RegF (.clk(CLK), .en(regWrite_WB & (~squash[3])), .adr1(IR[19:15]),
             .adr2(IR[24:20]), .wa(IR_WB[11:7]), .*); 

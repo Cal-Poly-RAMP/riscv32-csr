@@ -1,15 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
-[*] Fri Dec  9 06:52:55 2022
+[*] Fri Jan 13 18:31:54 2023
 [*]
-[dumpfile] "/home/justfran/PipelinedOtter/logs/vlt_dump.fst"
-[dumpfile_mtime] "Fri Dec  9 06:51:59 2022"
-[dumpfile_size] 13977658
-[savefile] "/home/justfran/PipelinedOtter/waveform.gtkw"
-[timestart] 1662740
-[size] 1393 985
-[pos] -1 -1
-*-11.000000 1667230 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[dumpfile] "/home/justfran/riscv32-csr/hardware/logs/vlt_dump.fst"
+[dumpfile_mtime] "Fri Jan 13 00:12:19 2023"
+[dumpfile_size] 7017457
+[savefile] "/home/justfran/riscv32-csr/hardware/waveform.gtkw"
+[timestart] 102553
+[size] 1920 985
+[pos] -27 -24
+*-4.000000 102559 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] TOP.
 [treeopen] TOP.OTTER_SIM.
 [treeopen] TOP.OTTER_SIM.Otter.
@@ -103,6 +103,8 @@ TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
 (2)TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
 (3)TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
 (4)TOP.OTTER_SIM.Otter.MCU.CSR.int_state[4:0]
+@22
+TOP.OTTER_SIM.Otter.MCU.CSR.mcause[31:0]
 @1001200
 -group_end
 @22
@@ -111,15 +113,16 @@ TOP.OTTER_SIM.Otter.MCU.CSR.mie[31:0]
 TOP.OTTER_SIM.Otter.MCU.CSR.mepc[31:0]
 @28
 TOP.OTTER_SIM.Otter.MCU.HzHr.OPCODE[6:0]
-@29
 TOP.OTTER_SIM.Otter.MCU.pcSource[2:0]
 @22
 TOP.OTTER_SIM.Otter.r_SSEG[15:0]
 @28
 TOP.OTTER_SIM.Otter.MCU.CSR.timer_int
 @22
+[color] 2
 TOP.OTTER_SIM.Otter.MCU.pc_EX[31:0]
 @28
+[color] 2
 TOP.OTTER_SIM.Otter.MCU.EX_VALID
 TOP.OTTER_SIM.Otter.MCU.CSR.m_ext_int
 TOP.OTTER_SIM.Otter.MCU.CSR.mret
@@ -143,6 +146,10 @@ TOP.OTTER_SIM.Otter.MCU.FINISH
 @22
 TOP.OTTER_SIM.Otter.MCU.RegF.ram[2][31:0]
 TOP.OTTER_SIM.Otter.MCU.RegF.ram[1][31:0]
+TOP.OTTER_SIM.Otter.MCU.RegF.ram[10][31:0]
+TOP.OTTER_SIM.Otter.MCU.RegF.wa[4:0]
+@23
+TOP.OTTER_SIM.Otter.MCU.RegF.wd[31:0]
 @1001200
 -group_end
 [pattern_trace] 1
